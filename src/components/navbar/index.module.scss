@@ -1,0 +1,18 @@
+.Navbar {
+  border-bottom: 1px solid $second-color;
+  position: sticky;
+  @include space-around(0, 10px, 5px);
+
+  .hamburger {
+    @include size(25px);
+    cursor: pointer;
+    &:hover {
+      color: $second-color;
+      transition: $slow;
+    }
+    &:active {
+      transform: scale(1.09);
+      transition: $fast;
+    }
+  }
+}

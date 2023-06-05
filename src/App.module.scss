@@ -1,0 +1,6 @@
+.App {
+  color: $third-color;
+  /* offset-x | offset-y | blur-radius | color */
+  text-shadow: 1px 1px 20px $first-color;
+  font-family: $first-font;
+}

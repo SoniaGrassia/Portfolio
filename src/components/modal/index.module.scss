@@ -1,0 +1,4 @@
+.Modal {
+  background-color: $first-color;
+  @include size(100%, 100vh);
+}
